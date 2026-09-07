@@ -1,0 +1,2055 @@
+{
+  "sprites": [
+    {
+      "id": 0,
+      "name": "PLAYER",
+      "rows_a": [
+        60,
+        126,
+        219,
+        255,
+        126,
+        60,
+        36,
+        102
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        60,
+        126,
+        219,
+        255,
+        126,
+        60,
+        36,
+        72
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 1,
+      "name": "DRIFTER",
+      "rows_a": [
+        0,
+        66,
+        165,
+        126,
+        60,
+        102,
+        66,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        0,
+        129,
+        66,
+        165,
+        126,
+        60,
+        102,
+        0
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 2,
+      "name": "TRACKER",
+      "rows_a": [
+        129,
+        66,
+        36,
+        126,
+        219,
+        60,
+        66,
+        129
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        66,
+        129,
+        36,
+        126,
+        219,
+        60,
+        129,
+        66
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 3,
+      "name": "BULWARK",
+      "rows_a": [
+        60,
+        126,
+        219,
+        255,
+        126,
+        90,
+        129,
+        195
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        60,
+        126,
+        255,
+        219,
+        126,
+        165,
+        195,
+        129
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 4,
+      "name": "TREE",
+      "rows_a": [
+        24,
+        60,
+        126,
+        60,
+        24,
+        24,
+        60,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static",
+      "stored_alt_rows": [
+        24,
+        126,
+        60,
+        126,
+        24,
+        24,
+        60,
+        0
+      ],
+      "stored_alt_used": false
+    },
+    {
+      "id": 5,
+      "name": "ANCHOR",
+      "rows_a": [
+        16,
+        84,
+        56,
+        254,
+        56,
+        84,
+        16,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        0,
+        16,
+        84,
+        56,
+        124,
+        56,
+        84,
+        16
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 6,
+      "name": "GATE",
+      "rows_a": [
+        126,
+        66,
+        90,
+        90,
+        90,
+        66,
+        126,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        126,
+        66,
+        66,
+        126,
+        66,
+        66,
+        126,
+        0
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 7,
+      "name": "RATION",
+      "rows_a": [
+        40,
+        16,
+        108,
+        254,
+        254,
+        254,
+        124,
+        56
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        20,
+        16,
+        108,
+        254,
+        254,
+        254,
+        124,
+        56
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 8,
+      "name": "MEDKIT",
+      "rows_a": [
+        24,
+        24,
+        60,
+        36,
+        36,
+        60,
+        0,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        24,
+        24,
+        60,
+        44,
+        36,
+        60,
+        0,
+        0
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 9,
+      "name": "CUTTER",
+      "rows_a": [
+        195,
+        102,
+        60,
+        24,
+        36,
+        66,
+        129,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        129,
+        195,
+        102,
+        60,
+        24,
+        36,
+        66,
+        0
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 10,
+      "name": "LENS",
+      "rows_a": [
+        60,
+        66,
+        129,
+        153,
+        129,
+        66,
+        60,
+        24
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        60,
+        66,
+        153,
+        165,
+        153,
+        66,
+        60,
+        8
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 11,
+      "name": "SCANNER",
+      "rows_a": [
+        126,
+        129,
+        165,
+        189,
+        165,
+        129,
+        126,
+        24
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        126,
+        129,
+        189,
+        165,
+        189,
+        129,
+        126,
+        8
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 12,
+      "name": "SHIELD_ITEM",
+      "rows_a": [
+        60,
+        126,
+        219,
+        189,
+        153,
+        126,
+        60,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        60,
+        126,
+        219,
+        165,
+        189,
+        126,
+        60,
+        0
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 13,
+      "name": "BOOST",
+      "rows_a": [
+        129,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        129
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        0,
+        66,
+        0,
+        0,
+        0,
+        0,
+        66,
+        0
+      ],
+      "stored_alt_used": true
+    },
+    {
+      "id": 14,
+      "name": "BEACON",
+      "rows_a": [
+        24,
+        24,
+        126,
+        24,
+        60,
+        90,
+        90,
+        255
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": true,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        90,
+        24,
+        126,
+        24,
+        60,
+        90,
+        90,
+        255
+      ],
+      "stored_alt_used": false
+    },
+    {
+      "id": 15,
+      "name": "SHARD",
+      "rows_a": [
+        0,
+        16,
+        56,
+        124,
+        56,
+        16,
+        0,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": true,
+      "runtime_rule": "stored_alt",
+      "stored_alt_rows": [
+        0,
+        0,
+        16,
+        56,
+        124,
+        56,
+        16,
+        0
+      ],
+      "stored_alt_used": false
+    },
+    {
+      "id": 16,
+      "name": "BEYOND_TREE",
+      "rows_a": [
+        36,
+        44,
+        122,
+        60,
+        24,
+        24,
+        60,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static",
+      "stored_alt_rows": [
+        18,
+        50,
+        94,
+        60,
+        24,
+        24,
+        60,
+        0
+      ],
+      "stored_alt_used": false
+    },
+    {
+      "id": 17,
+      "name": "LANCER",
+      "rows_a": [
+        24,
+        60,
+        126,
+        24,
+        24,
+        90,
+        129,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1",
+      "stored_alt_rows": [
+        24,
+        60,
+        126,
+        24,
+        24,
+        90,
+        129,
+        0
+      ],
+      "stored_alt_used": false
+    },
+    {
+      "id": 18,
+      "name": "RELAY",
+      "rows_a": [
+        24,
+        24,
+        255,
+        60,
+        255,
+        24,
+        24,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1",
+      "stored_alt_rows": [
+        24,
+        24,
+        255,
+        60,
+        255,
+        24,
+        24,
+        0
+      ],
+      "stored_alt_used": false
+    },
+    {
+      "id": 19,
+      "name": "PRISM",
+      "rows_a": [
+        36,
+        126,
+        255,
+        219,
+        255,
+        126,
+        36,
+        66
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1",
+      "stored_alt_rows": [
+        36,
+        126,
+        255,
+        219,
+        255,
+        126,
+        36,
+        66
+      ],
+      "stored_alt_used": false
+    },
+    {
+      "id": 20,
+      "name": "BLOOM",
+      "rows_a": [
+        24,
+        90,
+        60,
+        255,
+        60,
+        90,
+        24,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1",
+      "stored_alt_rows": [
+        24,
+        90,
+        60,
+        255,
+        60,
+        90,
+        24,
+        0
+      ],
+      "stored_alt_used": false
+    },
+    {
+      "id": 21,
+      "name": "EMITTER",
+      "rows_a": [
+        24,
+        90,
+        165,
+        126,
+        24,
+        60,
+        36,
+        66
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1",
+      "stored_alt_rows": [
+        24,
+        36,
+        90,
+        189,
+        126,
+        24,
+        36,
+        66
+      ],
+      "stored_alt_used": false
+    },
+    {
+      "id": 22,
+      "name": "PULSE_E",
+      "rows_a": [
+        28,
+        30,
+        7,
+        3,
+        3,
+        7,
+        30,
+        28
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 23,
+      "name": "PULSE_SE",
+      "rows_a": [
+        0,
+        6,
+        3,
+        3,
+        3,
+        67,
+        126,
+        60
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 24,
+      "name": "PULSE_S",
+      "rows_a": [
+        0,
+        0,
+        0,
+        195,
+        195,
+        231,
+        126,
+        60
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 25,
+      "name": "PULSE_SW",
+      "rows_a": [
+        0,
+        96,
+        192,
+        192,
+        192,
+        194,
+        126,
+        60
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 26,
+      "name": "PULSE_W",
+      "rows_a": [
+        56,
+        120,
+        224,
+        192,
+        192,
+        224,
+        120,
+        56
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 27,
+      "name": "PULSE_NW",
+      "rows_a": [
+        60,
+        126,
+        194,
+        192,
+        192,
+        192,
+        96,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 28,
+      "name": "PULSE_N",
+      "rows_a": [
+        60,
+        126,
+        231,
+        195,
+        195,
+        0,
+        0,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 29,
+      "name": "PULSE_NE",
+      "rows_a": [
+        60,
+        126,
+        67,
+        3,
+        3,
+        3,
+        6,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 30,
+      "name": "AIR_0",
+      "rows_a": [
+        0,
+        0,
+        32,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 31,
+      "name": "AIR_1",
+      "rows_a": [
+        0,
+        4,
+        0,
+        0,
+        64,
+        0,
+        0,
+        8
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 32,
+      "name": "WARNING",
+      "rows_a": [
+        0,
+        24,
+        0,
+        126,
+        0,
+        24,
+        0,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1"
+    },
+    {
+      "id": 33,
+      "name": "FIRE",
+      "rows_a": [
+        8,
+        24,
+        24,
+        60,
+        126,
+        60,
+        24,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1"
+    },
+    {
+      "id": 34,
+      "name": "POISON",
+      "rows_a": [
+        0,
+        36,
+        0,
+        129,
+        36,
+        0,
+        66,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1"
+    },
+    {
+      "id": 35,
+      "name": "FIELD_MID",
+      "rows_a": [
+        0,
+        24,
+        60,
+        126,
+        60,
+        24,
+        0,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1"
+    },
+    {
+      "id": 36,
+      "name": "FIELD_LOW",
+      "rows_a": [
+        0,
+        0,
+        0,
+        24,
+        60,
+        24,
+        0,
+        0
+      ],
+      "sheet_static": false,
+      "unused_entire_sprite": false,
+      "runtime_rule": "rotate_each_row_left_1"
+    },
+    {
+      "id": 37,
+      "name": "UI_HP",
+      "rows_a": [
+        0,
+        102,
+        255,
+        255,
+        126,
+        60,
+        24,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 38,
+      "name": "UI_HUNGER",
+      "rows_a": [
+        14,
+        31,
+        63,
+        63,
+        62,
+        124,
+        224,
+        64
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 39,
+      "name": "UI_ATK",
+      "rows_a": [
+        3,
+        7,
+        14,
+        220,
+        120,
+        48,
+        88,
+        136
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 40,
+      "name": "RANK",
+      "rows_a": [
+        16,
+        56,
+        254,
+        124,
+        56,
+        108,
+        198,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 41,
+      "name": "INFINITY",
+      "rows_a": [
+        0,
+        0,
+        102,
+        153,
+        153,
+        102,
+        0,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 42,
+      "name": "SHIELD_NW",
+      "rows_a": [
+        0,
+        1,
+        3,
+        15,
+        28,
+        24,
+        48,
+        112
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 43,
+      "name": "SHIELD_N",
+      "rows_a": [
+        0,
+        255,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 44,
+      "name": "SHIELD_NE",
+      "rows_a": [
+        0,
+        128,
+        192,
+        240,
+        56,
+        24,
+        12,
+        14
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 45,
+      "name": "SHIELD_W",
+      "rows_a": [
+        96,
+        96,
+        96,
+        96,
+        96,
+        96,
+        96,
+        96
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 46,
+      "name": "SHIELD_E",
+      "rows_a": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 47,
+      "name": "SHIELD_SW",
+      "rows_a": [
+        112,
+        48,
+        24,
+        28,
+        15,
+        3,
+        1,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 48,
+      "name": "SHIELD_S",
+      "rows_a": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        255,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 49,
+      "name": "SHIELD_SE",
+      "rows_a": [
+        14,
+        12,
+        24,
+        56,
+        240,
+        192,
+        128,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    },
+    {
+      "id": 50,
+      "name": "SHIELD_SPARK",
+      "rows_a": [
+        0,
+        0,
+        16,
+        56,
+        16,
+        0,
+        0,
+        0
+      ],
+      "sheet_static": true,
+      "unused_entire_sprite": false,
+      "runtime_rule": "static"
+    }
+  ],
+  "font": [
+    {
+      "id": 0,
+      "character": " ",
+      "rows_5x7": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rows_5x5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1,
+      "character": "A",
+      "rows_5x7": [
+        14,
+        17,
+        17,
+        31,
+        17,
+        17,
+        17
+      ],
+      "rows_5x5": [
+        14,
+        17,
+        31,
+        17,
+        17
+      ]
+    },
+    {
+      "id": 2,
+      "character": "B",
+      "rows_5x7": [
+        30,
+        17,
+        17,
+        30,
+        17,
+        17,
+        30
+      ],
+      "rows_5x5": [
+        30,
+        17,
+        30,
+        17,
+        30
+      ]
+    },
+    {
+      "id": 3,
+      "character": "C",
+      "rows_5x7": [
+        14,
+        17,
+        16,
+        16,
+        16,
+        17,
+        14
+      ],
+      "rows_5x5": [
+        14,
+        17,
+        16,
+        17,
+        14
+      ]
+    },
+    {
+      "id": 4,
+      "character": "D",
+      "rows_5x7": [
+        30,
+        17,
+        17,
+        17,
+        17,
+        17,
+        30
+      ],
+      "rows_5x5": [
+        30,
+        17,
+        17,
+        17,
+        30
+      ]
+    },
+    {
+      "id": 5,
+      "character": "E",
+      "rows_5x7": [
+        31,
+        16,
+        16,
+        30,
+        16,
+        16,
+        31
+      ],
+      "rows_5x5": [
+        31,
+        16,
+        30,
+        16,
+        31
+      ]
+    },
+    {
+      "id": 6,
+      "character": "F",
+      "rows_5x7": [
+        31,
+        16,
+        16,
+        30,
+        16,
+        16,
+        16
+      ],
+      "rows_5x5": [
+        31,
+        16,
+        30,
+        16,
+        16
+      ]
+    },
+    {
+      "id": 7,
+      "character": "G",
+      "rows_5x7": [
+        14,
+        17,
+        16,
+        23,
+        17,
+        17,
+        15
+      ],
+      "rows_5x5": [
+        14,
+        17,
+        23,
+        17,
+        15
+      ]
+    },
+    {
+      "id": 8,
+      "character": "H",
+      "rows_5x7": [
+        17,
+        17,
+        17,
+        31,
+        17,
+        17,
+        17
+      ],
+      "rows_5x5": [
+        17,
+        17,
+        31,
+        17,
+        17
+      ]
+    },
+    {
+      "id": 9,
+      "character": "I",
+      "rows_5x7": [
+        14,
+        4,
+        4,
+        4,
+        4,
+        4,
+        14
+      ],
+      "rows_5x5": [
+        14,
+        4,
+        4,
+        4,
+        14
+      ]
+    },
+    {
+      "id": 10,
+      "character": "J",
+      "rows_5x7": [
+        7,
+        2,
+        2,
+        2,
+        18,
+        18,
+        12
+      ],
+      "rows_5x5": [
+        7,
+        2,
+        2,
+        18,
+        12
+      ]
+    },
+    {
+      "id": 11,
+      "character": "K",
+      "rows_5x7": [
+        17,
+        18,
+        20,
+        24,
+        20,
+        18,
+        17
+      ],
+      "rows_5x5": [
+        17,
+        18,
+        24,
+        18,
+        17
+      ]
+    },
+    {
+      "id": 12,
+      "character": "L",
+      "rows_5x7": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        31
+      ],
+      "rows_5x5": [
+        16,
+        16,
+        16,
+        16,
+        31
+      ]
+    },
+    {
+      "id": 13,
+      "character": "M",
+      "rows_5x7": [
+        17,
+        27,
+        21,
+        21,
+        17,
+        17,
+        17
+      ],
+      "rows_5x5": [
+        17,
+        27,
+        21,
+        17,
+        17
+      ]
+    },
+    {
+      "id": 14,
+      "character": "N",
+      "rows_5x7": [
+        17,
+        25,
+        21,
+        19,
+        17,
+        17,
+        17
+      ],
+      "rows_5x5": [
+        17,
+        25,
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "id": 15,
+      "character": "O",
+      "rows_5x7": [
+        14,
+        17,
+        17,
+        17,
+        17,
+        17,
+        14
+      ],
+      "rows_5x5": [
+        14,
+        17,
+        17,
+        17,
+        14
+      ]
+    },
+    {
+      "id": 16,
+      "character": "P",
+      "rows_5x7": [
+        30,
+        17,
+        17,
+        30,
+        16,
+        16,
+        16
+      ],
+      "rows_5x5": [
+        30,
+        17,
+        30,
+        16,
+        16
+      ]
+    },
+    {
+      "id": 17,
+      "character": "Q",
+      "rows_5x7": [
+        14,
+        17,
+        17,
+        17,
+        21,
+        18,
+        13
+      ],
+      "rows_5x5": [
+        14,
+        17,
+        17,
+        18,
+        13
+      ]
+    },
+    {
+      "id": 18,
+      "character": "R",
+      "rows_5x7": [
+        30,
+        17,
+        17,
+        30,
+        20,
+        18,
+        17
+      ],
+      "rows_5x5": [
+        30,
+        17,
+        30,
+        18,
+        17
+      ]
+    },
+    {
+      "id": 19,
+      "character": "S",
+      "rows_5x7": [
+        15,
+        16,
+        16,
+        14,
+        1,
+        1,
+        30
+      ],
+      "rows_5x5": [
+        15,
+        16,
+        14,
+        1,
+        30
+      ]
+    },
+    {
+      "id": 20,
+      "character": "T",
+      "rows_5x7": [
+        31,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "rows_5x5": [
+        31,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": 21,
+      "character": "U",
+      "rows_5x7": [
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        14
+      ],
+      "rows_5x5": [
+        17,
+        17,
+        17,
+        17,
+        14
+      ]
+    },
+    {
+      "id": 22,
+      "character": "V",
+      "rows_5x7": [
+        17,
+        17,
+        17,
+        17,
+        10,
+        10,
+        4
+      ],
+      "rows_5x5": [
+        17,
+        17,
+        17,
+        10,
+        4
+      ]
+    },
+    {
+      "id": 23,
+      "character": "W",
+      "rows_5x7": [
+        17,
+        17,
+        17,
+        21,
+        21,
+        21,
+        10
+      ],
+      "rows_5x5": [
+        17,
+        17,
+        21,
+        21,
+        10
+      ]
+    },
+    {
+      "id": 24,
+      "character": "X",
+      "rows_5x7": [
+        17,
+        17,
+        10,
+        4,
+        10,
+        17,
+        17
+      ],
+      "rows_5x5": [
+        17,
+        17,
+        4,
+        17,
+        17
+      ]
+    },
+    {
+      "id": 25,
+      "character": "Y",
+      "rows_5x7": [
+        17,
+        17,
+        10,
+        4,
+        4,
+        4,
+        4
+      ],
+      "rows_5x5": [
+        17,
+        17,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": 26,
+      "character": "Z",
+      "rows_5x7": [
+        31,
+        1,
+        2,
+        4,
+        8,
+        16,
+        31
+      ],
+      "rows_5x5": [
+        31,
+        1,
+        4,
+        16,
+        31
+      ]
+    },
+    {
+      "id": 27,
+      "character": "0",
+      "rows_5x7": [
+        14,
+        17,
+        19,
+        21,
+        25,
+        17,
+        14
+      ],
+      "rows_5x5": [
+        14,
+        17,
+        21,
+        17,
+        14
+      ]
+    },
+    {
+      "id": 28,
+      "character": "1",
+      "rows_5x7": [
+        4,
+        12,
+        4,
+        4,
+        4,
+        4,
+        14
+      ],
+      "rows_5x5": [
+        4,
+        12,
+        4,
+        4,
+        14
+      ]
+    },
+    {
+      "id": 29,
+      "character": "2",
+      "rows_5x7": [
+        14,
+        17,
+        1,
+        2,
+        4,
+        8,
+        31
+      ],
+      "rows_5x5": [
+        14,
+        17,
+        2,
+        8,
+        31
+      ]
+    },
+    {
+      "id": 30,
+      "character": "3",
+      "rows_5x7": [
+        30,
+        1,
+        1,
+        14,
+        1,
+        1,
+        30
+      ],
+      "rows_5x5": [
+        30,
+        1,
+        14,
+        1,
+        30
+      ]
+    },
+    {
+      "id": 31,
+      "character": "4",
+      "rows_5x7": [
+        2,
+        6,
+        10,
+        18,
+        31,
+        2,
+        2
+      ],
+      "rows_5x5": [
+        6,
+        10,
+        31,
+        2,
+        2
+      ]
+    },
+    {
+      "id": 32,
+      "character": "5",
+      "rows_5x7": [
+        31,
+        16,
+        16,
+        30,
+        1,
+        1,
+        30
+      ],
+      "rows_5x5": [
+        31,
+        16,
+        30,
+        1,
+        30
+      ]
+    },
+    {
+      "id": 33,
+      "character": "6",
+      "rows_5x7": [
+        14,
+        16,
+        16,
+        30,
+        17,
+        17,
+        14
+      ],
+      "rows_5x5": [
+        14,
+        16,
+        30,
+        17,
+        14
+      ]
+    },
+    {
+      "id": 34,
+      "character": "7",
+      "rows_5x7": [
+        31,
+        1,
+        2,
+        4,
+        8,
+        8,
+        8
+      ],
+      "rows_5x5": [
+        31,
+        1,
+        4,
+        8,
+        8
+      ]
+    },
+    {
+      "id": 35,
+      "character": "8",
+      "rows_5x7": [
+        14,
+        17,
+        17,
+        14,
+        17,
+        17,
+        14
+      ],
+      "rows_5x5": [
+        14,
+        17,
+        14,
+        17,
+        14
+      ]
+    },
+    {
+      "id": 36,
+      "character": "9",
+      "rows_5x7": [
+        14,
+        17,
+        17,
+        15,
+        1,
+        1,
+        14
+      ],
+      "rows_5x5": [
+        14,
+        17,
+        15,
+        1,
+        14
+      ]
+    },
+    {
+      "id": 37,
+      "character": "/",
+      "rows_5x7": [
+        1,
+        2,
+        2,
+        4,
+        8,
+        8,
+        16
+      ],
+      "rows_5x5": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ]
+    },
+    {
+      "id": 38,
+      "character": ".",
+      "rows_5x7": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        12
+      ],
+      "rows_5x5": [
+        0,
+        0,
+        0,
+        12,
+        12
+      ]
+    },
+    {
+      "id": 39,
+      "character": "-",
+      "rows_5x7": [
+        0,
+        0,
+        0,
+        31,
+        0,
+        0,
+        0
+      ],
+      "rows_5x5": [
+        0,
+        0,
+        31,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 40,
+      "character": ":",
+      "rows_5x7": [
+        0,
+        12,
+        12,
+        0,
+        12,
+        12,
+        0
+      ],
+      "rows_5x5": [
+        0,
+        12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "id": 41,
+      "character": "?",
+      "rows_5x7": [
+        31,
+        17,
+        2,
+        4,
+        4,
+        0,
+        4
+      ],
+      "rows_5x5": [
+        31,
+        17,
+        4,
+        0,
+        4
+      ]
+    },
+    {
+      "id": 42,
+      "character": "*",
+      "rows_5x7": [
+        0,
+        21,
+        14,
+        31,
+        14,
+        21,
+        0
+      ],
+      "rows_5x5": [
+        0,
+        21,
+        31,
+        21,
+        0
+      ]
+    },
+    {
+      "id": 43,
+      "character": "(",
+      "rows_5x7": [
+        2,
+        4,
+        8,
+        8,
+        8,
+        4,
+        2
+      ],
+      "rows_5x5": [
+        2,
+        4,
+        8,
+        4,
+        2
+      ]
+    },
+    {
+      "id": 44,
+      "character": ")",
+      "rows_5x7": [
+        8,
+        4,
+        2,
+        2,
+        2,
+        4,
+        8
+      ],
+      "rows_5x5": [
+        8,
+        4,
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "id": 45,
+      "character": "+",
+      "rows_5x7": [
+        0,
+        4,
+        4,
+        31,
+        4,
+        4,
+        0
+      ],
+      "rows_5x5": [
+        0,
+        4,
+        31,
+        4,
+        0
+      ]
+    },
+    {
+      "id": 46,
+      "character": "!",
+      "rows_5x7": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        0,
+        4
+      ],
+      "rows_5x5": [
+        4,
+        4,
+        4,
+        0,
+        4
+      ]
+    }
+  ]
+}

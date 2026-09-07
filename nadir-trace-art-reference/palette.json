@@ -1,0 +1,266 @@
+{
+  "base_colors": [
+    {
+      "name": "COLOR_BG",
+      "hex": "#050706",
+      "rgb": [
+        5,
+        7,
+        6
+      ]
+    },
+    {
+      "name": "COLOR_PANEL",
+      "hex": "#080C0A",
+      "rgb": [
+        8,
+        12,
+        10
+      ]
+    },
+    {
+      "name": "COLOR_WORLD",
+      "hex": "#060907",
+      "rgb": [
+        6,
+        9,
+        7
+      ]
+    },
+    {
+      "name": "COLOR_GRID",
+      "hex": "#112A1D",
+      "rgb": [
+        17,
+        42,
+        29
+      ]
+    },
+    {
+      "name": "COLOR_LINE",
+      "hex": "#74A68C",
+      "rgb": [
+        116,
+        166,
+        140
+      ]
+    },
+    {
+      "name": "COLOR_TEXT",
+      "hex": "#D9F7E6",
+      "rgb": [
+        217,
+        247,
+        230
+      ]
+    },
+    {
+      "name": "COLOR_MUTED",
+      "hex": "#7DA08E",
+      "rgb": [
+        125,
+        160,
+        142
+      ]
+    },
+    {
+      "name": "COLOR_ACCENT",
+      "hex": "#55EDA2",
+      "rgb": [
+        85,
+        237,
+        162
+      ]
+    },
+    {
+      "name": "COLOR_KEY",
+      "hex": "#234837",
+      "rgb": [
+        35,
+        72,
+        55
+      ]
+    },
+    {
+      "name": "COLOR_WARN",
+      "hex": "#F2D36B",
+      "rgb": [
+        242,
+        211,
+        107
+      ]
+    },
+    {
+      "name": "COLOR_DANGER",
+      "hex": "#F26B6B",
+      "rgb": [
+        242,
+        107,
+        107
+      ]
+    },
+    {
+      "name": "COLOR_BLOOM",
+      "hex": "#E28AF2",
+      "rgb": [
+        226,
+        138,
+        242
+      ]
+    },
+    {
+      "name": "COLOR_EMITTER",
+      "hex": "#F29B6B",
+      "rgb": [
+        242,
+        155,
+        107
+      ]
+    },
+    {
+      "name": "COLOR_BULWARK",
+      "hex": "#6BB7F2",
+      "rgb": [
+        107,
+        183,
+        242
+      ]
+    },
+    {
+      "name": "COLOR_SCANNER",
+      "hex": "#69C6F2",
+      "rgb": [
+        105,
+        198,
+        242
+      ]
+    },
+    {
+      "name": "COLOR_AIR",
+      "hex": "#3D4742",
+      "rgb": [
+        61,
+        71,
+        66
+      ]
+    },
+    {
+      "name": "COLOR_AIR_LIVE",
+      "hex": "#646E69",
+      "rgb": [
+        100,
+        110,
+        105
+      ]
+    },
+    {
+      "name": "COLOR_COLD_WORLD",
+      "hex": "#06090F",
+      "rgb": [
+        6,
+        9,
+        15
+      ]
+    },
+    {
+      "name": "COLOR_COLD_GRID",
+      "hex": "#142638",
+      "rgb": [
+        20,
+        38,
+        56
+      ]
+    },
+    {
+      "name": "COLOR_COLD_WALL",
+      "hex": "#6F8EAA",
+      "rgb": [
+        111,
+        142,
+        170
+      ]
+    },
+    {
+      "name": "COLOR_BEYOND_WORLD",
+      "hex": "#0A0610",
+      "rgb": [
+        10,
+        6,
+        16
+      ]
+    },
+    {
+      "name": "COLOR_BEYOND_GRID",
+      "hex": "#251338",
+      "rgb": [
+        37,
+        19,
+        56
+      ]
+    },
+    {
+      "name": "COLOR_BEYOND_WALL",
+      "hex": "#907AB0",
+      "rgb": [
+        144,
+        122,
+        176
+      ]
+    },
+    {
+      "name": "LOBBY_0",
+      "hex": "#000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "LOBBY_1",
+      "hex": "#0A1B13",
+      "rgb": [
+        10,
+        27,
+        19
+      ]
+    },
+    {
+      "name": "LOBBY_2",
+      "hex": "#23573F",
+      "rgb": [
+        35,
+        87,
+        63
+      ]
+    },
+    {
+      "name": "LOBBY_3",
+      "hex": "#58CC91",
+      "rgb": [
+        88,
+        204,
+        145
+      ]
+    },
+    {
+      "name": "LOBBY_4",
+      "hex": "#D8F2E4",
+      "rgb": [
+        216,
+        242,
+        228
+      ]
+    }
+  ],
+  "lobby_dynamic": {
+    "affected_indices": [
+      1,
+      2,
+      3
+    ],
+    "rgb_adjustment_min": -7,
+    "rgb_adjustment_max": 8
+  },
+  "gif_palette_colors": 73
+}

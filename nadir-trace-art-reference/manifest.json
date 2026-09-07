@@ -1,0 +1,222 @@
+{
+  "generator": "nadir-visual-catalog",
+  "status": "complete",
+  "game_version": "0.49.2",
+  "sources_sha256": {
+    "src/nadir_trace.c": "2fc801439e9f927c0e04865201b412f51dafb1dd050d31a98dc7372cd91d45ea",
+    "src/lobby_background.h": "18e20d7fac8078e2cafbcfe9ef390d12081012bf307010cd502cc4efc7cfc6ee",
+    "scripts/export-visual-catalog.py": "d8223c44b2c1a6ed0a709ebb150eead4688b8110f957087aacef4ca54e94cdce",
+    "scripts/make-icon.ps1": "530e7fd778240b49aea909b3400bf6781c6a4e444b7f25d2d727222b3ebefb62"
+  },
+  "verification": {
+    "sprite_ids_on_sheets": 51,
+    "font_glyphs": 47,
+    "named_colors": 23,
+    "lobby_base_colors": 5,
+    "gif_rgb_roundtrip": "passed",
+    "png_native_sprite_roundtrip": "passed",
+    "png_native_font_roundtrip": "passed",
+    "gif_saved_frame_roundtrip": "passed",
+    "gif_loop_duration": "passed"
+  },
+  "sheets": [
+    {
+      "name": "01_palette.png",
+      "width": 1280,
+      "height": 1552,
+      "frames": 1
+    },
+    {
+      "name": "01_palette_lobby.png",
+      "width": 1280,
+      "height": 800,
+      "frames": 1
+    },
+    {
+      "name": "01_palette_lobby.gif",
+      "width": 1280,
+      "height": 800,
+      "frames": 31,
+      "loop_ms": 5120
+    },
+    {
+      "name": "02_objects.png",
+      "width": 1280,
+      "height": 848,
+      "frames": 1
+    },
+    {
+      "name": "02_objects.gif",
+      "width": 1280,
+      "height": 848,
+      "frames": 2,
+      "loop_ms": 800
+    },
+    {
+      "name": "03_characters.png",
+      "width": 1280,
+      "height": 1104,
+      "frames": 1
+    },
+    {
+      "name": "03_characters.gif",
+      "width": 1280,
+      "height": 1104,
+      "frames": 2,
+      "loop_ms": 800
+    },
+    {
+      "name": "04_items.png",
+      "width": 1280,
+      "height": 720,
+      "frames": 1
+    },
+    {
+      "name": "04_items.gif",
+      "width": 1280,
+      "height": 720,
+      "frames": 2,
+      "loop_ms": 800
+    },
+    {
+      "name": "05_attack_glyphs.png",
+      "width": 1280,
+      "height": 1360,
+      "frames": 1
+    },
+    {
+      "name": "05_attack_glyphs.gif",
+      "width": 1280,
+      "height": 1360,
+      "frames": 2,
+      "loop_ms": 800
+    },
+    {
+      "name": "08_ui_glyphs.png",
+      "width": 1280,
+      "height": 720,
+      "frames": 1
+    },
+    {
+      "name": "08_ui_glyphs.gif",
+      "width": 1280,
+      "height": 720,
+      "frames": 2,
+      "loop_ms": 800
+    },
+    {
+      "name": "08_shield_parts.png",
+      "width": 1280,
+      "height": 848,
+      "frames": 1
+    },
+    {
+      "name": "11_other_and_unused.png",
+      "width": 1280,
+      "height": 592,
+      "frames": 1
+    },
+    {
+      "name": "11_other_and_unused.gif",
+      "width": 1280,
+      "height": 592,
+      "frames": 2,
+      "loop_ms": 800
+    },
+    {
+      "name": "06_attack_patterns.png",
+      "width": 1280,
+      "height": 1872,
+      "frames": 1
+    },
+    {
+      "name": "06_attack_patterns.gif",
+      "width": 1280,
+      "height": 1872,
+      "frames": 9,
+      "loop_ms": 3600
+    },
+    {
+      "name": "06_field_lifecycle.png",
+      "width": 1280,
+      "height": 784,
+      "frames": 1
+    },
+    {
+      "name": "07_projectile_paths.png",
+      "width": 1280,
+      "height": 1120,
+      "frames": 1
+    },
+    {
+      "name": "07_projectile_paths.gif",
+      "width": 1280,
+      "height": 1120,
+      "frames": 7,
+      "loop_ms": 2800
+    },
+    {
+      "name": "09_font_5x7.png",
+      "width": 1280,
+      "height": 1936,
+      "frames": 1
+    },
+    {
+      "name": "10_keycap_font_5x5.png",
+      "width": 1280,
+      "height": 1936,
+      "frames": 1
+    },
+    {
+      "name": "10_key_labels.png",
+      "width": 1280,
+      "height": 880,
+      "frames": 1
+    },
+    {
+      "name": "08_shield_and_radar.png",
+      "width": 1280,
+      "height": 1328,
+      "frames": 1
+    },
+    {
+      "name": "08_shield_and_radar.gif",
+      "width": 1280,
+      "height": 1328,
+      "frames": 16,
+      "loop_ms": 6400
+    },
+    {
+      "name": "08_hud_feedback.png",
+      "width": 1280,
+      "height": 896,
+      "frames": 1
+    },
+    {
+      "name": "08_hud_feedback.gif",
+      "width": 1280,
+      "height": 896,
+      "frames": 28,
+      "loop_ms": 1600
+    },
+    {
+      "name": "02_world_states.png",
+      "width": 1280,
+      "height": 800,
+      "frames": 1
+    },
+    {
+      "name": "12_lobby_background.png",
+      "width": 512,
+      "height": 384,
+      "frames": 1
+    },
+    {
+      "name": "12_lobby_background.gif",
+      "width": 512,
+      "height": 384,
+      "frames": 70,
+      "loop_ms": 10240
+    }
+  ]
+}
